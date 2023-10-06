@@ -26,6 +26,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Verified connectivity
 - Joined client VM to domain
 - Created AD users with Powershell script
+- Allowed domain users to remote to client
 
 
 <h2>Deployment and Configuration Steps</h2>
@@ -61,7 +62,7 @@ Promoted Windows Server to domain controller.
   <img src="https://github.com/timsherrell/configure-ad/assets/144177449/48a8ba4d-6978-4546-a488-26dfbefd06eb" />
 </p>
 <p>
-  Changed client DNS to domain controller's private IP and joined client to timsh.com domain 
+  Configured client DNS to domain controller's private IP and joined client to timsh.com domain 
 </p>
 
 <p>
@@ -72,5 +73,12 @@ Promoted Windows Server to domain controller.
 </p>
 <p>
   Used a Powershell script to create many users in AD. I did not create this script. I edited the $PASSWORD_FOR_USERS variable to a password I would remember and the $NUMBER_OF_ACCOUNTS_TO_CREATE varible to a smaller number so the script would finish running sooner.   
+</p>
+
+<p>
+  <img src="https://github.com/timsherrell/configure-ad/assets/144177449/e7ef3f3d-6273-4901-b04d-a54a721ee565" />
+</p>
+<p>
+  Configured remote desktop to allow any domain user to remote to client. 
 </p>
 
