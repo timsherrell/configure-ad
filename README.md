@@ -12,6 +12,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
+- Command Prompt
 - PowerShell
 
 <h2>Operating Systems Used </h2>
@@ -32,21 +33,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://github.com/timsherrell/configure-ad/assets/144177449/dfd44420-a79c-434e-be79-b5294a86c34f"/>
 </p>
 <p>
-  <img src="" />
-</p>
-<p>
 Remoted into Windows Server and installed Active Directory Domain Services. 
 </p>
-<br />
-
-<p>
-  <img src="https://github.com/timsherrell/configure-ad/assets/144177449/df475e20-a740-4bbb-8d0c-6249bf0a5351" />
-</p>
-<p>
-  Checked connectivity between server and client machines.
-</p>
-<br />
-
+<br 
 <p>
 <img src="https://github.com/timsherrell/configure-ad/assets/144177449/a0c52b6a-4c05-4616-924b-4bbcd78d5815"/>
 </p>
@@ -55,6 +44,14 @@ Remoted into Windows Server and installed Active Directory Domain Services.
 </p>
 <p>
 Promoted Windows Server to domain controller and joined Windows Pro machine to the domain. 
+</p>
+<br />
+
+<p>
+  <img src="https://github.com/timsherrell/configure-ad/assets/144177449/df475e20-a740-4bbb-8d0c-6249bf0a5351" />
+</p>
+<p>
+  Verified connectivity between server and client machines.
 </p>
 <br />
 
