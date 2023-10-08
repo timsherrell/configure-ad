@@ -78,20 +78,20 @@ This will cause another box to appear. In this box click the Add Features button
 <p>
   <img src="https://github.com/timsherrell/configure-ad/assets/144177449/2d3e442a-86e5-416b-b58b-3e8f34032bf4" />
 </p>
-This will bring up the Active Directory Domain Services Configuration Wizard. Click the Radio button next to Add new forest. In the Root domain name field, We will type the name of our domain. This will be in the form of "mydomain.com." You can use any name you want followed by ".com" We will use this later to add a workstation (Windows 10 Pro machine) to our domain. 
+This will bring up the Active Directory Domain Services Configuration Wizard. Click the Radio button next to "Add a new forest." In the Root domain name field, we will type the name of our domain. This will be in the form of "mydomain.com." We can use any name we want followed by ".com." We will use this in part 2 of this tutorial to add a workstation (Windows 10 Pro machine) to our domain. 
 <p>
 <img src="https://github.com/timsherrell/configure-ad/assets/144177449/a0c52b6a-4c05-4616-924b-4bbcd78d5815"/>
 </p>
 <br />
 <p>
-  Click next to come to this page. We won't use this password again but good practice demands we use a password we will remember. As a side note, it is best during this tutorial to save your usernames and passwords in a text file you can refer to later. This is not a good practice in real life but it will be very helpful just in this tutorial. 
+  Click next to come to the Domain Controller Options page. We need to create a password for the Directory Services Restore Mode (DSRM). We won't use this password again in this tutorial, but good practice demands we use a password we will remember. As a side note, it is best during this tutorial to save your usernames and passwords in a text file you can refer to later. This is not a good practice in real life but it will be very helpful just in this tutorial. 
 </p>
 <p>
   <img src="https://github.com/timsherrell/configure-ad/assets/144177449/af09c5e2-595a-4acf-be68-026d605db17d" />
 </p>
 <br />
 <p>
-  Once that is done, click next to this page. We're just waiting for the NetBIOS field to populate with our domain name. Then click next until the install button isn't grayed out anymore.    
+  Once that is done, click next to come to the Additional Options page. We're just waiting for the NetBIOS field to populate with our domain name. Then click next until the install button isn't grayed out anymore.    
 </p>
 <p>
   <img src="https://github.com/timsherrell/configure-ad/assets/144177449/38c74e89-92d7-493d-8f6c-94fe3f60c1f1 " />
@@ -107,7 +107,7 @@ This will bring up the Active Directory Domain Services Configuration Wizard. Cl
   We'll need to remote back into the Server again. The Remote Desktop Connection window should still have the IP address saved from the last time we used it. You can navigate to your machine in the Azure portal (portal.azure.com) if you want to double-check the IP address.       
 </p>
 <p>
-  When you remote in again you'll see this box again where you put in your credential. You won't be able to log in the same way you did before since the server has been promoted to a domain controller. Instead, click "More choices" near the bottom of the window. 
+  When you remote back in you'll see the same box as before where you will enter your credentials. We won't be able to log in the same way we did before. The server has been promoted to a domain controller, so we have to log in to the domain. Click "More choices" near the bottom of the window. 
 </p>
 <p>
  <img src="https://github.com/timsherrell/configure-ad/assets/144177449/7104c27b-40cd-434e-b1fc-8808647f0e3c" /> 
