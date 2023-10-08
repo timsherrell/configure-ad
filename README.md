@@ -97,7 +97,7 @@ This will bring up the Active Directory Domain Services Configuration Wizard. Cl
 </p>
 <br />
 <p>
-  Once that is done, click next to come to the Additional Options page. We're just waiting for the NetBIOS field to populate with our domain name. Then click next until the install button isn't grayed out anymore.    
+  Once that is done, click next to come to the Additional Options page. We're just waiting for the NetBIOS field to populate with our domain name. Then click next until the install button is no longer grayed out.    
 </p>
 <p>
   <img src="https://github.com/timsherrell/configure-ad/assets/144177449/38c74e89-92d7-493d-8f6c-94fe3f60c1f1 " />
