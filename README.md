@@ -62,7 +62,7 @@ To begin, we copy the public IP address from our Windows Server in Azure and pas
   <img src="https://github.com/timsherrell/configure-ad/assets/144177449/a7c7524f-855c-4bc0-a75b-44f3d4da73ca" />
 </p>
 <p>
-  Click the next button until this screen comes up. Then click the checkbox next to Active Directory Domain Services. 
+  Click the next button until the Select Server Roles screen comes up. Then click the checkbox next to Active Directory Domain Services. 
 </p>
 <p>
   <img src="https://github.com/timsherrell/configure-ad/assets/144177449/c4e5160f-1d15-47ef-965a-9082fc9e9c71" />
