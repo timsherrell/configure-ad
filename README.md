@@ -35,7 +35,7 @@ To begin, we copy the public IP address from our Windows Server in Azure and pas
   <img src="https://github.com/timsherrell/configure-ad/assets/144177449/98b958ff-297f-4e02-b23d-802f80555eb7" />
 </p>
 <p>
-  Enter the credentials we created for our Azure virtual machine.  
+  We enter the credentials we created for our Azure virtual machine.  
 </p>
 <p>
   <img src="https://github.com/timsherrell/configure-ad/assets/144177449/4ec4271a-b8cb-4ed4-879a-a213011ba14a"/>
