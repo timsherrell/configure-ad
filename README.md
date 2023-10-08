@@ -26,7 +26,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-To begin, we copy the public IP address from your Windows Server and paste it into our Windows Remote Desktop interface. I like to just type "rd" into the Windows search bar to bring up Remote Desktop Connection. Then paste the IP into the Computer field. 
+To begin, we copy the public IP address from our Windows Server in Azure and paste it into our Windows Remote Desktop interface. I like to just type "rd" into the Windows search bar to bring up Remote Desktop Connection. Then paste the IP into the Computer field. 
 </p>
 <p>
 <img src="https://github.com/timsherrell/configure-ad/assets/144177449/68f7a327-2a8c-40ac-b7b6-02bdb0ea8395" />
@@ -36,7 +36,7 @@ To begin, we copy the public IP address from your Windows Server and paste it in
 </p>
 <br />
 <p>
-  A box talking about certificate errors will pop up. Don't worry about anything it's saying. It's not going to affect anything. Click the yes button to continue. 
+  A box talking about certificate errors will pop up. We can safely ignore this. It's not going to affect anything. Click the yes button to continue. 
 </p>
 <p>
   <img src="https://github.com/timsherrell/configure-ad/assets/144177449/62024fab-24a8-4cb3-ad88-184087b119b3" />  
@@ -44,7 +44,7 @@ To begin, we copy the public IP address from your Windows Server and paste it in
 <br />
 
 <p>
-  Once you're on the Server desktop you should see the Server Manager pop up automatically. If it doesn't pop up automatically click on the Windows Start button. From there you should be able to click on/open Server Manager. Click on Add Roles and Features highlighted here. 
+  Once you're on the Server desktop you should see the Server Manager pop up automatically. If it doesn't pop up automatically click on the Windows Start button. From there you should be able to click on/open the Server Manager. Click on Add Roles and Features highlighted here. 
 </p>
 <p>
   <img src="https://github.com/timsherrell/configure-ad/assets/144177449/ffb2414a-ce4d-4f25-8930-0a6192c5f7e0" />
