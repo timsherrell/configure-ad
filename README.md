@@ -24,9 +24,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Installed Active Directory
 - Verified connectivity
-- Joined client VM to domain
+- Joined client VM to the domain
 - Created AD users with Powershell script
-- Allowed domain users to remote to client
+- Allowed domain users to remote to the client
 
 
 <h2>Deployment and Configuration Steps</h2>
@@ -35,9 +35,21 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://github.com/timsherrell/configure-ad/assets/144177449/dfd44420-a79c-434e-be79-b5294a86c34f"/>
 </p>
 <p>
-Remoted into Windows Server and installed Active Directory Domain Services. 
+To begin, copy the public IP address from your Windows Server VM and paste it into your Windows Remote Desktop interface. I like to just type "rd" into my windows search bar to bring up Remote Desktop Connection. Then paste the IP into the "Computer:" field. 
+</p>
+<p>
+<img src="https://github.com/timsherrell/configure-ad/assets/144177449/68f7a327-2a8c-40ac-b7b6-02bdb0ea8395" />
+</p>
+<p>
+  <img src="https://github.com/timsherrell/configure-ad/assets/144177449/98b958ff-297f-4e02-b23d-802f80555eb7" />
 </p>
 <br />
+<p>
+  The Server Manager should pop up automatically. If it doesn't pop up,  From there click on Add Roles and Features to start installing Active Directory Domain Services. 
+</p>
+<p>
+  <img src="https://github.com/timsherrell/configure-ad/assets/144177449/ffb2414a-ce4d-4f25-8930-0a6192c5f7e0" />
+</p>
 
 <p>
 <img src="https://github.com/timsherrell/configure-ad/assets/144177449/a0c52b6a-4c05-4616-924b-4bbcd78d5815"/>
