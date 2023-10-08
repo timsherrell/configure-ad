@@ -4,7 +4,7 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure), Part 1</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines. This tutorial assumes you have already created the necessary virtual machine in Azure.<br />
+This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines. This tutorial assumes we have already created the necessary virtual machine in Azure.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -35,7 +35,7 @@ To begin, we copy the public IP address from our Windows Server in Azure and pas
   <img src="https://github.com/timsherrell/configure-ad/assets/144177449/98b958ff-297f-4e02-b23d-802f80555eb7" />
 </p>
 <p>
-  Enter the credentials you created for your Azure virtual machine.  
+  Enter the credentials we created for our Azure virtual machine.  
 </p>
 <p>
   <img src="https://github.com/timsherrell/configure-ad/assets/144177449/4ec4271a-b8cb-4ed4-879a-a213011ba14a"/>
