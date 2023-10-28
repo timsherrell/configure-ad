@@ -146,8 +146,9 @@ This will bring up the Active Directory Domain Services Configuration Wizard. Cl
 </p>
 <br />
 <p>
-  Congratulations! You're now in the traditional Active Directory environment used by System Administrators in most IT departments. I would recommend doing this lab several times until it comes a bit more naturally and doesn't take you as long to get through. That way you'll have a good grasp on it.  
+  Now we will create some organizational units (OUs), join a workstation to our domain, and add users using a PowerShell script.   
 </p>
+
 <p>
-  In part 2 of this tutorial, we will join our Windows 10 Pro Azure virtual machine to the domain we just created. See you then!
+  
 </p>
