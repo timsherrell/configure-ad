@@ -146,9 +146,5 @@ This will bring up the Active Directory Domain Services Configuration Wizard. Cl
 </p>
 <br />
 <p>
-  Now we will create some organizational units (OUs), join a workstation to our domain, and add users using a PowerShell script.   
-</p>
-
-<p>
-  
+  Next, in part 2,  we will create some organizational units (OUs), join a workstation to our domain, and add users using a PowerShell script.   
 </p>
