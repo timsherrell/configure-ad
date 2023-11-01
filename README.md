@@ -3,7 +3,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure), Part 1</h1>
+<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines. This tutorial assumes we have already created the necessary virtual machine in Azure.<br />
 
 
@@ -145,6 +145,3 @@ This will bring up the Active Directory Domain Services Configuration Wizard. Cl
   <img src="https://github.com/timsherrell/configure-ad/assets/144177449/b1756175-8a89-47d7-b90d-d97d3d9db690" />
 </p>
 <br />
-<p>
-  Next, in part 2,  we will create some organizational units (OUs), join a workstation to our domain, and add users using a PowerShell script.   
-</p>
